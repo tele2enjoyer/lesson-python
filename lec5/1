@@ -1,0 +1,8 @@
+import math
+seat = int(input("введите номер места"))
+room = math.ceil(seat / 4)
+print(room)
+#round 1.2
+seats_per_compartment = 4
+compartments_count = 6
+total_seats = seats_per_compartment * compartments_count
