@@ -1,3 +1,4 @@
+#round 1.1
 import math
 seat = int(input("введите номер места"))
 room = math.ceil(seat / 4)
